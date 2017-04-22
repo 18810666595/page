@@ -25,13 +25,15 @@ body {
 }
 
 header {
-    width: 100%;
+    min-width: 1140px;
     background: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/header-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     /*height: 800px;*/
 }
+
+header .layout {}
 
 ul, li {
     list-style: none;
@@ -199,6 +201,7 @@ main .subtitle {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 
 /*.port ul {
     position: relative;
@@ -372,7 +375,7 @@ footer .logo img {
 
 footer .info {
     text-align: center;
-    width: 100%;
+    min-width: 1140px;
     height: 500px;
     padding: 100px 0;
     color: #fff;
